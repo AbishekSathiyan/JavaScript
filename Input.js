@@ -13,8 +13,7 @@ console.log(a + s);
 
 */
 
-const prompt = require('prompt-sync')();
-
+const prompt = require('prompt-sync')(); // Importing the prompt-sync package to get input from the user using the prompt() function use all the time to get input from the user
 
 var name=prompt("Enter your name: ");
 var age=prompt("Enter your age: ");
