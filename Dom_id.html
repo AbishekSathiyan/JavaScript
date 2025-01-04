@@ -1,0 +1,32 @@
+<html>
+
+<h1 id="title">Hello , World!</h1>
+
+
+<p id="one">Hello</p>
+<p id="two">Bye</p>
+
+<p class="three">Three</p>
+
+<script>
+    // Get the elements
+    var title = document.getElementById("title");
+    title.textContent="Bye World..!"
+    var f_para = document.getElementById("one");
+    f_para.textContent="Hello World..!"
+    var s_para = document.getElementById("two");
+    s_para.textContent="Good Bye..!"
+</script>
+
+
+<script>
+    // Get the query selector
+    var three = document.querySelector(".three");
+    three.textContent="Three is changed";
+    var f_head=document.querySelector("h1") //Selecting the first h1 tag
+    console.log(f_head)
+    var three = document.querySelector("#two"); //Class select using #
+    three.textContent="Two is changed";
+    console.log(three)
+</script>
+</html>

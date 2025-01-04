@@ -44,7 +44,7 @@ console.log(""); // Print an empty line
 var a=5
 var b=3
 do{
-    console.log("a is greater than b:"+a)
+    console.log("a is greater than b: "+a)
     a--;
 }
 while(a>b)
